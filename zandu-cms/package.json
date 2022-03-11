@@ -1,0 +1,42 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@mui/icons-material": "^5.0.5",
+		"@mui/material": "^5.0.0-rc.1",
+		"@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+		"@mui/styled-engine-sc": "^5.0.0-rc.1",
+		"classnames": "^2.3.1",
+		"next": "^12.0.2",
+		"oidc-client": "^1.11.5",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"sass": "^1.35.2",
+		"styled-components": "^5.3.3"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.14",
+		"@typescript-eslint/eslint-plugin": "^4.28.3",
+		"@typescript-eslint/parser": "^4.28.3",
+		"autoprefixer": "^10.2.6",
+		"eslint": "^7.30.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-next": "^11.0.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"postcss": "^8.3.5",
+		"prettier": "^2.3.2",
+		"tailwindcss": "^2.2.4",
+		"typescript": "^4.3.5"
+	},
+	"resolutions": {
+		"@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+	}
+}

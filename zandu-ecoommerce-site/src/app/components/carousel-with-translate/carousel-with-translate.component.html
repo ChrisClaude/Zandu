@@ -1,0 +1,26 @@
+<div class="carousel">
+  <div class="slide-container">
+    <ng-container *ngFor="let slide of slides; let i = index">
+      <img
+        [src]="slide.src"
+        [alt]="slide.description"
+        [@slideAnimation]="animationState"
+        class="slide"
+      />
+    </ng-container>
+  </div>
+  <button
+    *ngIf="currentSlide !== 1"
+    class="prev-btn"
+    (click)="onPreviousClick()"
+  >
+    <mat-icon>chevron_left</mat-icon>
+  </button>
+  <button
+    *ngIf="currentSlide !== slides.length - 1"
+    class="next-btn"
+    (click)="onNextClick()"
+  >
+    <mat-icon>chevron_right</mat-icon>
+  </button>
+</div>
